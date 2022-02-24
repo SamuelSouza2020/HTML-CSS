@@ -1,4 +1,3 @@
-
 /*
 	-Regra CSS
 		O CSS tem 3 seções: Seletor, Propriedade e Valor.
@@ -44,7 +43,10 @@ p.font
 }
 /*
 	Formatação ID são únicas, caso utilize mais de uma vez a função não rodará.
-	Para definir um ID é usado o #
-	Atributo Class
+	Para definir um ID é usado o "#"
+	Exemplo: p#destaque{Comandos}
+	Atributo Class é semelhante ao ID, mas pode ser usado várias vezes
+	Para definir uma Class é usado o "."
+	Exemplo: p.fonte{comandos}
 */
 
