@@ -50,3 +50,24 @@ p.font
 	Exemplo: p.fonte{comandos}
 */
 
+div
+{
+	border: solid;			/*Tipo de borda*/
+	border-color: red;		/*Cor da borda*/
+	border-width: 1px;		/*Largura da borda*/
+	text-align: center;		/*Alinhamento do texto*/
+	margin-top: 15px;		/*Margem de espaço para cima*/
+	margin-left: 400px;		/*Margem de espaço para esquerda*/
+	margin-right: 400px;	/*Margem de espaço para direita*/
+	margin-bottom: 50px;	/*Margem de espaço para baixo*/
+	padding-left: 60px;		/*Preenchimento - Distância entre a borda esquerda e o texto*/
+	padding-right: 60px;	/*Padding - Distância entre a borda direita e o texto*/
+}
+/*
+	A Div é utilizada para criar uma divisão/seção no documento HTML
+	Essa tag do HTML é manipulado no CSS e Javascript.
+	Qualquer tipo de conteúdo pode ser colocado dentro dessa tag
+	Por padrão os navegadores sempre colocam uma quebra de linha antes e depois da div
+	Ela suporta atributos globais e de eventos
+*/
+
