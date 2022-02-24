@@ -31,10 +31,3 @@ p#destaque
 	text-align: left;
 }
 
-p.font
-{
-	font-size:20px;/*Tamanho da fonte 20 pixels*/
-	color: #00ff00;/*Cor do texto: verde*/
-	text-align: right; s/*alinhamento do texto:direita*/
-}
-
