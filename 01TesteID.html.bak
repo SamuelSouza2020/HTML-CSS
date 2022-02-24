@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Teste ID</title>
+	<style type="text/css">
+		p#destaque
+		{
+			color: red;
+		}
+	</style>
+  </head>
+  <body>
+    <p id="destaque"> Texto com ID </p>
+	<p> Texto sem ID </p>
+  </body>
+</html>

@@ -1,6 +1,12 @@
 
 /*
-	Existem 3 formas de aplicar o CSS no HTML
+	-Regra CSS
+		O CSS tem 3 seções: Seletor, Propriedade e Valor.
+			Exemplo: Seletor {Propriedade: Valor}
+				Seletor: Ajuda a aplicar o elemento para aplicar o estilo
+				Propriedade: São os atributos/tags HTML, transformados em propriedade CSS. Ex.: Color
+				Valor: É o que o atributo/tag recebe. Ex.: Red
+	-Existem 3 formas de aplicar o CSS no HTML
 		1º Estilo Inline: É aplicado direto na Tag.
 			Exemplo: <p style="fontsize: lorge; color: red;">TextoAqui</p>
 			Vantagem: Melhor opção para formatar individualmente
@@ -30,11 +36,15 @@ p#destaque
 	font-size: 30px;
 	text-align: left;
 }
-
 p.font
 {
 	font-size:20px;/*Tamanho da fonte 20 pixels*/
 	color: #00ff00;/*Cor do texto: verde*/
 	text-align: right; s/*alinhamento do texto:direita*/
 }
+/*
+	Formatação ID são únicas, caso utilize mais de uma vez a função não rodará.
+	Para definir um ID é usado o #
+	Atributo Class
+*/
 
