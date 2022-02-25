@@ -1,0 +1,14 @@
+.produto
+{
+	float: left;
+	margin: 5px;
+	padding: 15px;
+	width: 150px;
+	height: 150px;
+	border: 1px solid black;
+	background-color: silver;
+}
+.entrelinhas
+{
+	padding: 5px;
+}
