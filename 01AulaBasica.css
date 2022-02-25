@@ -9,7 +9,7 @@
 		1º Estilo Inline: É aplicado direto na Tag.
 			Exemplo: <p style="fontsize: lorge; color: red;">TextoAqui</p>
 			Vantagem: Melhor opção para formatar individualmente
-			Desvantagem: Mais trabalhoso.
+			Desvantagem: Mais trabalhoso e suja o código, deixando maior desnecessariamente.
 		2º Estilo Incorporado: Todo código CSS fica no HEAD
 			Exemplo: <style type="text/css"> Comandos </style>
 			Vantagem: Todo CSS em um local só, fácil de identificar.
