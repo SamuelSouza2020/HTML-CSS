@@ -1,4 +1,8 @@
-a.imagem
+div.nteste
 {
-	align: Center;
+	text-align: Center;
+}
+div.iteste
+{
+	text-align: right;
 }
