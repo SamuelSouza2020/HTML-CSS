@@ -42,3 +42,6 @@
     float: left;
     background-color: rgb(24, 139, 233);
 }
+#MenuH ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
