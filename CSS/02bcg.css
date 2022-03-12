@@ -1,3 +1,14 @@
 body{
-	
+	background-color: rgb(250, 240, 230);
+	background-image: url("../Image/02Img.jpg");
+	background-repeat: repeat-x;
 }
+h1{
+	text-align: Center;
+	color: white;
+}
+/*body{
+	background-color: rgb(250, 240, 230);
+	background-image: url("../Image/02Img.jpg");
+	background-repeat: repeat-y;
+}*/
