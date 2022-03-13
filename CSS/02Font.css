@@ -1,0 +1,9 @@
+p{font-family: "Times New Roman", Times, serif;}
+
+h1{font-style: normal;}
+p {font-style: italic;}
+
+h1{font-size: 40px;}
+
+/*Define o negrito*/
+p{font-weight: 900;
