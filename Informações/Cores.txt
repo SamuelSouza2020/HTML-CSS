@@ -4,4 +4,8 @@ branco é quando mistura as 3 cores em sua totalidade #FFFFFF
 preto é quando não existe cor #000000
 	Cores RGB
 o a 255
+	Cores seguras para sites
+somente 216 cores são seguras para utilizar em todos os sites, tem local q nao aceita algumas cores
+	Valores das cores
+Se sao iguais, nao precisa colocar dois #FF3366 = #F36
 
