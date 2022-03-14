@@ -1,0 +1,4 @@
+HTML	../
+Para avisar ao navegador que ele deve sair da página no HTML
+basta usar: ../
+caso seja necessário voltar mais, usa novamente: ../../

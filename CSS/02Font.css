@@ -6,4 +6,4 @@ p {font-style: italic;}
 h1{font-size: 40px;}
 
 /*Define o negrito*/
-p{font-weight: 900;
+p{font-weight: 900;}/*900 é o mais forte*/
