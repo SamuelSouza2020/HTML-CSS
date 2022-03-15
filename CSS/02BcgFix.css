@@ -1,7 +1,9 @@
 body
 {
 	background-image:url("../Image/02Img.jpg");
-	background-attachment: fixed;
+	/*background-attachment: scroll;*/
+	/*background-attachment: fixed;*/
+	background-attachment: local;
 }
 h1
 {
