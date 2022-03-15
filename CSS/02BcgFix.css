@@ -8,7 +8,7 @@
     background-color: red;
 }*/
 #MenuH ul {
-    max-width: 1300px;/*alinhamento do menu*/
+    /*max-width: 1300px;alinhamento do menu*/
     list-style: none;
     padding: 0;
 	position: fixed;
@@ -21,7 +21,7 @@
     padding: 20px;
     display: inline-block;
     text-decoration: none;
-    transition: background .30s;
+    transition: background .2s;
 }
 body
 {
@@ -53,6 +53,6 @@ p
     float: left;
     background-color: rgb(24, 139, 233);
 }
-#MenuH ul li a:hover {
-    background-color: rgb(24, 139, 233);
+#MenuH ul li a:hover{
+    background-color: rgb(200, 20, 20);
 }
