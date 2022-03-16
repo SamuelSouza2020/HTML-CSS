@@ -1,0 +1,2 @@
+	Só aceita jpg, png e gif
+	alt é importante para a pesquisa do google, deficientes visuais saberem o que tem na imagem e caso der erro na imagem, aparece a informação do alt

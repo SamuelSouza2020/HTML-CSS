@@ -11,4 +11,12 @@ div{
 	background-color: #52a;
 	font-variant: small-caps;
 	line-height: 50px;
+	color: white;
+}
+img{
+	width: 400px;
+	height: 300px;
+	border: 2px solid #F00;
+	display: block;
+	margin: 0px auto;
 }
