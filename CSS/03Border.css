@@ -3,4 +3,10 @@ h1{border:6px solid #0C6;}
 p{
 	border:3px solid #7FF;
 	border-style: dashed;
-}  
+}
+div{
+	border: 10px dotted #D44;
+	margin: 0px 300px 0px 300px;
+	text-align: Center;
+	background-color: #52a;
+}
