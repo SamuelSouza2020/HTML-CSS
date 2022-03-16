@@ -1,3 +1,6 @@
 body{border:15px solid #F00;}
 h1{border:6px solid #0C6;}
-p{border:3px solid #7FF;}  
+p{
+	border:3px solid #7FF;
+	border-style: dashed;
+}  
