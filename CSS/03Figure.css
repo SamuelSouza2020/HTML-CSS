@@ -1,0 +1,9 @@
+img{
+    border:2px solid #F00;
+    width:400px;
+    height:300px;
+}
+figure{
+	display: block;
+	margin: 50px 40px 80px 150px;
+}
