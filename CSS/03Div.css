@@ -4,19 +4,32 @@ body{background-color: #FFF;}
     height: 700px;
 	background: #fff;
 }    
-#topo{  	 	
-	width:100%; 
+#topoLeft{
+	float: left;
+	width:33.333%; 
     height:20%;
 	background: #0F0;  
-}    
+}
+#topoCenter{
+	float: left;
+	width:33.333%; 
+    height:20%;
+	background: #0C0;
+}
+#topoRight{
+	float: left;
+	width:33.333%; 
+    height:20%;
+	background: #050;  
+}
 #lado{  	
-	float: left;  	
+	float: left;
 	width: 20%;  
     height: 60%;
 	background: #CCC;  	
 }    
 #meio{  	
-	float: left;  	
+	float: left;
 	width: 80%;  
     height: 60%;
 	background: #00F;  	
