@@ -1,0 +1,20 @@
+#divPai{
+    position: relative;
+    margin-top: 40px;/*espaço*/
+    margin-left: 50px;
+    color:#F00;
+    background-color:#CCC;
+    width:500px;/*largura*/
+    height:300px;/*altura*/
+    border:2px solid #F00;
+}
+#divSon{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 30px;
+    color:#F00;
+    background-color:#FF0;
+    width:300px;
+    height:200px;
+    border:4px solid #0F0;
+}
