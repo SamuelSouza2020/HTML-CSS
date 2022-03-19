@@ -8,37 +8,47 @@
 	<body>
 		<table>
 			<caption>Tabela ABCD</caption><!--Legenda da Tabela-->
-			<tr><!--Cada comando desse significa 1 linha-->
-				<th colspan=5>Tabela</th><!--Cabeçalho-->
-			</tr>
-			<tr>
-				<th>01</th>
-				<td>AAAA</td>
-				<td>bbbb</td>
-				<td>cccc</td>
-				<td>dddd</td>
-			</tr>
-			<tr>
-				<th>02</th>
-				<td>aaaa</td>
-				<td>BBBB</td>
-				<td>cccc</td>
-				<td>dddd</td>
-			</tr>
-			<tr>
-				<th>03</th>
-				<td>aaaa</td>
-				<td>bbbb</td>
-				<td>CCCC</td>
-				<td>dddd</td>
-			</tr>
-			<tr>
-				<th>04</th>
-				<td>aaaa</td>
-				<td>bbbb</td>
-				<td>cccc</td>
-				<td>DDDD</td>
-			</tr>
+			<thead>
+				<tr><!--Cada comando desse significa 1 linha-->
+					<th colspan=5>Tabela</th><!--Cabeçalho-->
+					<!--Colspan é Horizontal e Rowspan é Vertical-->
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>01</th>
+					<td>AAAA</td>
+					<td>bbbb</td>
+					<td>cccc</td>
+					<td>dddd</td>
+				</tr>
+				<tr>
+					<th>02</th>
+					<td>aaaa</td>
+					<td>BBBB</td>
+					<td>cccc</td>
+					<td>dddd</td>
+				</tr>
+				<tr>
+					<th>03</th>
+					<td>aaaa</td>
+					<td>bbbb</td>
+					<td>CCCC</td>
+					<td>dddd</td>
+				</tr>
+				<tr>
+					<th>04</th>
+					<td>aaaa</td>
+					<td>bbbb</td>
+					<td>cccc</td>
+					<td>DDDD</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th colspan=5>FIM</th>
+				</tr>
+			</tfoot>
 		</table>
 	</body>
 </html>
