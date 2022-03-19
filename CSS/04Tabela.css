@@ -1,4 +1,18 @@
 table, th, td
 {
-	border: 3px solid #F00;
+	border: 3px solid #0FF;
+	border-collapse: separate;
+	padding: 3px;
+	text-align: Center;
+	border-spacing: 7px;
+	background-color: #0AA;
+}
+td
+{
+	background-color: #0C5;
+	width: 100px;
+}
+th 
+{
+	background-color: #0A2;
 }
