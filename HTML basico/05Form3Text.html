@@ -8,7 +8,27 @@
 	<body>
 		<form action="teste.php" method="post"
 		name="meu_form">
-			<textarea name="recado" rows="15" cols="40">Deixe seu texto aqui!</textarea>
+			<div style="border:2px solid #555;">
+				<textarea name="recado" rows="15" cols="40">Deixe seu texto aqui!</textarea>
+				<br>
+				<select name="estado">
+					<option value="SP">São Paulo</option>
+					<option value="RJ">Rio de Janeiro</option>
+					<option value="MG">Minas Gerais</option>
+					<option value="Nenhum" selected>Selecione um estado</option>
+				</select>
+			</div>
+			<div style="border:2px solid #505;">
+				<label for="feira">Feira<br/>
+					<select name="select" id="feira">
+						<option selected value="1">Escolha um item</option>
+						<optgroup label="frutas">
+							<option value="banana">Banana</option>
+							<option value="banana">Laranja</option>
+							<option value="banana">Melancia</option>
+							<option value="uva">Uva</option>
+				</label>
+			</div>
 		</form>
 	</body>
 </html>
