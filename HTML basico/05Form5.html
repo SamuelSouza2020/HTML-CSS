@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../CSS/05Form.css">
+		<title>Form Text</title>
+	</head>
+	<body>
+		<form action="teste.php" method="post"
+		name="meu_form"oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+			aumento iniciando de 1%: 0%
+			<input type="range" id="a" name="a" value="1">
+			100% +
+			<input type="number" id="b" name="b" value="1">
+			=
+			<output name="x" for="a b"></output>%
+			<br><br>
+			<input type="submit" value="enviar">
+		</form>
+	</body>
+</html>
