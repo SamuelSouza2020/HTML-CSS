@@ -1,0 +1,55 @@
+body {
+ margin: 0px;
+ border: 0px;
+ height: 100%;
+ background-size: 100%;
+ font-size: 110px;
+ font: Arial, Helvetica, sans-serif;
+ / * Inicio se degradam do Corpo * /
+ background-color: # 2F2727;
+ background-image: url (images / radial_bg.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ 
+ / * Safari 4-5, 1-9 Chrome * / / * Não é possível especificar um tamanho de porcentagem? Laaaaaame. * /
+ background:-webkit-gradiente (radial, centro, 0, centro, 460, a partir de (# 1a82f7), para (# 2F2727));
+ 
+ / * Safari 5.1 +, Chrome 10 + * /
+ background:-webkit-radial-gradiente (círculo, # 1a82f7, # 2F2727);
+ 
+ / * Firefox 3.6 + * /
+ background:-moz-radial-gradiente (círculo, # 1a82f7, # 2F2727);
+ 
+ / * IE 10 * /
+ fundo:-ms-radial-gradiente (círculo, # 1a82f7, # 2F2727);
+ / * Fim se degradam do Corpo * /}
+ 
+corpo, html {
+ height: 100%;
+ width: 100%;
+}
+ 
+# Imagem {
+ width: 65%;
+ height: 100%;
+ float: left;
+ vertical-align: central;
+ }
+
+# Dir {width: 35%;
+ height: 100%;
+ float: right;}
+ 
+# {Cronometro
+ width: 100%;
+ height: 20%;
+ font-size: 90px;
+ font-family: "Arial Black", Gadget, sans-serif;
+ color: # FFF;
+ line-height: 50px;
+ text-decoration: blink;
+ }
+ 
+# {Logotipo
+
+ width: 100%;}

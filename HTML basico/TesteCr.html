@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link href="../CSS/estiloCR.css" type="text/css" rel="stylesheet"/>
+<title> Documento sem título </title>
+<script>
+	SEGUNDOS var = ;/ 70/1800; // Inicio fazer cronometro
+	function formatatempo (segs) {
+	 
+	min = 0;
+	hr = 0;
+	/*
+	se hr <10 então hr = "0" & ​​hr
+	se min <10 min, em seguida = "0" & ​​min
+	se segs <10 então segs = "0" e segs
+	*/
+	while (segs> = 60) {
+	if (segs> = 60) {
+	segs = segs-60;
+	min = min +1;
+	}
+	}
+
+	while (min> = 60) {
+	if (min> = 60) {
+	min = min-60;
+	hr = 1 hr;
+	}
+	}
+	if (FC <10) {hr = "0" + h}
+	if (min <10) {min = "0" + min}
+	if (segs <10) {segs = "0" + segs}
+	fin = h + ":" + min + ":" + segs
+	voltar fin;
+	}
+
+
+	<- Function Conta () {
+	<- SEGUNDOS -;
+	!.. <- Documento getElementById ("contador") innerHTML = formatatempo (SEGUNDOS);
+	<-!}
+
+
+	Conta function () {
+	SEGUNDOS -;
+
+	var ritmo = formatatempo (SEGUNDOS);
+	if (0 min ==) {
+	 
+	 . document.getElementById ("contador") style.color = "vermelho";
+	  
+	 document.getElementById ("contador") innerHTML =''.;
+
+	 setTimeout (function () {
+	  document.getElementById ("contador") innerHTML = ritmo.;
+	 }, 500
+	 );
+	 
+	 if (SEGUNDOS == 0) {
+	  alert ("Tempo de Apresentação esgotado!");
+	  n ();
+	  stop (); 
+	 }
+	} Else {
+	 document.getElementById ("contador") innerHTML = ritmo.;
+	}
+	}
+
+
+	Inicia a function () {
+	if (SEGUNDOS == 0) {
+	 alert ("Tempo de Apresentação esgotado!");
+	 clearInterval (intervalo);
+	 stop ();
+	} Else {
+	intervalo = setInterval ("Conta ();", 1000);}
+	}
+
+
+	function para () {
+	 clearInterval (intervalo);}
+
+
+	function zera () {
+	clearInterval (intervalo);
+	SEGUNDOS = 1800;
+	. document.getElementById ("contador") style.color = "branco";
+	. document.getElementById ("contador") innerHTML = formatatempo (SEGUNDOS);
+	}
+</Script>
+
+
+<Script>
+SEGUNDOS var = 1800
+var VELOCIDADE = 1000;
+var valor = 1;
+função pisca () {
+ SEGUNDOS -;
+if (valor == 1) {
+counter.innerHTML = formatatempo (SEGUNDOS);
+valor = 0;
+} Else {
+counter.innerHTML = "";
+valor = 1;
+}
+setTimeout ("pisca ();", VELOCIDADE);
+}
+</Script>
+
+
+<script>
+local var = "cronometro"
+/ * VALORES = liga UO Desliga * /
+
+var Alerta = "Desliga"
+
+if (screen.width == 1280 && == Screen.Height 1024)
+{This.location = local + '1280x1024. Html '}
+
+if (screen.width == 1280 && == Screen.Height 960)
+{This.location = local + '1280x960. Html '}
+
+if (screen.width == 1280 && == Screen.Height 768)
+{This.location = local + '1280x768. Html '}
+
+if (screen.width == 1280 && == Screen.Height 720)
+{This.location = local + '1280x720. Html '}
+
+if (screen.width == 1152 && == Screen.Height 864)
+{This.location = local + '1152x864. Html '}
+
+if (screen.width == 1024 && == Screen.Height 768)
+{Top.location = local + '1024x768. Html '}
+
+if (screen.width == 848 && Screen.Height == 480)
+{This.location = local + '848x480. Html '}
+
+if (screen.width == 800 && Screen.Height == 600)
+{This.location = local + '800x600. Html '}
+
+if (screen.width == 640 && Screen.Height == 480)
+{This.location = local + '640x480. Html '}
+
+if (Alerta == 'liga') {
+alert ('SUAS configurações de video FORAM detectadas com Êxito:' + screen.width + '×' + Screen.Height + 'pixels \ n \ nRedirecionando ...')}
+else {}
+
+</Script>
+
+</Head>
+
+<Onload corpo = "pisca ();">
+<div id="imagem" align="center">
+	<div id="a"> </div>
+	<!--<div id="b"> <img src="imagens/3 Oficina Engenharia.png" width="800" height="450" ​​/> </ div>-->
+	<div id="a"> </div>
+</Div>
+<div id="dir">
+<div id="logo">
+</Div>
+	<div id="cronometro" align="center">
+	 <span id="counter" class="blink"> 00:30:00 </ span> <br />
+			<div> 
+				<input type="button" value="Parar" onclick="para();">
+				<input type="button" value="Iniciar" onclick="inicia();">    
+				<input type="button" value="Recomeçar" onclick="zera();"> 
+			</div>
+			 
+	</Div>
+
+</Div>
+
+</Body>
+</Html>
